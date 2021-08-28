@@ -1,0 +1,35 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #172d40;
+  color: white;
+  text-align: center;
+  font-family: "Roboto", "微軟正黑體";
+}
+
+body span {
+  color: #1bfe61;
+}
+
+body .controls {
+  margin-bottom: 20px;
+}
+
+body .show {
+  width: 50%;
+}
+/*# sourceMappingURL=style.css.map */
